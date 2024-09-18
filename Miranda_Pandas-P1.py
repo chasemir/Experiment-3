@@ -1,29 +1,29 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
+# In[1]:
 
 
 import pandas as pd
 
 
-# In[4]:
+# In[2]:
 
 
 cars = pd.read_csv('cars.csv')
 cars
 
 
-# In[6]:
+# In[3]:
 
 
-cars.head()
+cars.head(5)
 
 
-# In[8]:
+# In[4]:
 
 
-cars.tail()
+cars.tail(5)
 
 
 # In[ ]:
